@@ -10,6 +10,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.content.Intent;
 import android.widget.EditText;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     public final static String EXTRA_MESSAGE = "localhost.mmangold.helloandroid.MESSAGE";
@@ -29,6 +31,14 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+
+        /* klaapt net
+        TextView textView = new TextView(this);
+        textView.setTextSize(40);
+        textView.setText(R.string.hello_world);
+
+        RelativeLayout layout = (RelativeLayout) findViewById(R.id.content);
+        layout.addView(textView);*/
     }
 
     @Override

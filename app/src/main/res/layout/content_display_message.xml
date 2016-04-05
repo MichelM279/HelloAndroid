@@ -14,5 +14,4 @@
     tools:context="localhost.mmangold.helloandroid.DisplayMessageActivity"
     tools:showIn="@layout/activity_display_message"
     >
-
 </RelativeLayout>
